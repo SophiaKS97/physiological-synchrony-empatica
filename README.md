@@ -40,7 +40,7 @@ The pipeline includes:
 - lag increment: 250 ms
 - HR resampling: 4 Hz
 - z-scoring
-These preliminary parameters may be revised as we develop this project.
+- These preliminary parameters may be revised as we develop this project.
 
 ## Future code and associated folders will include:
 - Empatica wearable data import
