@@ -9,6 +9,7 @@ During the joint drumming task, both the participant and experimenter wear an Em
 physiological-synchrony-empatica/
 │
 ├── README.md
+├── requirements.txt
 ├── data/
 ├── code/
 ├── results/
@@ -38,13 +39,17 @@ data/
 │   └── experimental_condition.csv
 └── processed/
 
-Example participant_info.csv:
-participant_id	group	experimenter_id	session
-P001	SCZ	E001	1
+Example `participant_info.csv`:
 
-Example experimental_condition.csv:
-participant_id	session	condition	task_start	task_end
-P001	1	synchronized	TBD	TBD
+| participant_id | group | experimenter_id | session |
+|---|---|---|---|
+| P001 | SCZ | E001 | 1 |
+
+Example `experimental_condition.csv`:
+
+| participant_id | session | condition | task_start | task_end |
+|---|---|---|---|---|
+| P001 | 1 | synchronized | TBD | TBD |
 
 File names and data structures are preliminary and will be updated as the study dataset is finalized.
 
