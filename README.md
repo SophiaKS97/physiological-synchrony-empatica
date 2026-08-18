@@ -14,6 +14,7 @@ physiological-synchrony-empatica/
 ├── code/
 ├── results/
 └── docs/
+```text
 
 ## Current Status
 This repository is currently a project skeleton, as this project and associated data and code are currently in development. The initial goal is to develop and test a reproducible physiological synchrony pipeline using sample/public data before applying the workflow to our study data.
