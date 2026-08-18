@@ -6,6 +6,7 @@ This project contains code and documentation for processing and analyzing physio
 During the joint drumming task, both the participant and experimenter wear an Empatica EmbracePlus wearable on their non-drumming hand. Physiological signals will be compared between the participant and experimenter to quantify interpersonal physiological synchrony.
 
 ## Repository Structure
+```text
 physiological-synchrony-empatica/
 ├── README.md
 ├── requirements.txt
@@ -13,6 +14,7 @@ physiological-synchrony-empatica/
 ├── code/
 ├── results/
 └── docs/
+```text
 
 ## Current Status
 This repository is currently a project skeleton, as this project and associated data and code are currently in development. The initial goal is to develop and test a reproducible physiological synchrony pipeline using sample/public data before applying the workflow to our study data.
