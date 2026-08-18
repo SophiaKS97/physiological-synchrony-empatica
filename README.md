@@ -33,7 +33,7 @@ Example `experimental_condition.csv`:
 File names and data structures are preliminary and will be updated as the study dataset is finalized.
 
 ## Experimental Timeline
-The physiological recording may include periods before, during, and after the joint drumming task. The primary analysis will focus on the predefined drumming period (30 seconds).
+The primary analysis will focus on the predefined drumming period (30 seconds).
 
 Baseline → Drumming begins → Drumming period → Drumming ends → Post-task
 
