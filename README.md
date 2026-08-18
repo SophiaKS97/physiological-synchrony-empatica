@@ -5,17 +5,6 @@ This project contains code and documentation for processing and analyzing physio
 
 During the joint drumming task, both the participant and experimenter wear an Empatica EmbracePlus wearable on their non-drumming hand. Physiological signals will be compared between the participant and experimenter to quantify interpersonal physiological synchrony.
 
-## Repository Structure
-```text
-physiological-synchrony-empatica/
-├── README.md
-├── requirements.txt
-├── data/
-├── code/
-├── results/
-└── docs/
-```text
-
 ## Current Status
 This repository is currently a project skeleton, as this project and associated data and code are currently in development. The initial goal is to develop and test a reproducible physiological synchrony pipeline using sample/public data before applying the workflow to our study data.
 
@@ -30,24 +19,13 @@ HR/IBI will be the initial focus for development. EDA will be explored as a seco
 
 ### Expected Data Structure
 The final study data are expected to contain separate physiological recordings for participants and experimenters.
-Example:
-data/
-├── raw/
-│   ├── participant/
-│   └── experimenter/
-├── metadata/
-│   ├── participant_info.csv
-│   └── experimental_condition.csv
-└── processed/
 
 Example `participant_info.csv`:
-
 | participant_id | group | experimenter_id | session |
 |---|---|---|---|
 | P001 | SCZ | E001 | 1 |
 
 Example `experimental_condition.csv`:
-
 | participant_id | session | condition | task_start | task_end |
 |---|---|---|---|---|
 | P001 | 1 | synchronized | TBD | TBD |
